@@ -1,0 +1,185 @@
+.firstSectionWrap {
+    margin-bottom: 1rem;
+}
+
+.firstSection {
+    background-color: #1E2D69;
+    box-shadow: 0px 75px 100px -30px rgba(0, 0, 0, 0.25);
+    border-radius: 10px 100px 10px 10px;
+    padding: 2.5rem;
+}
+
+.firstSectionWrap,
+.secondSectionWrap {
+    display: flex;
+    justify-content: center;
+}
+
+.firstSection,
+.secondSection {
+    background-color: #1E2D69;
+    box-shadow: 0px 75px 100px -30px rgba(0, 0, 0, 0.25);
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 7.93rem 1.5rem;
+}
+
+.iconsContainer {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.iconsBackground {
+    background-color: #0C122C;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.secondSectionWrap {
+    position: relative;
+}
+
+.secondSection {
+    padding: 2rem 2rem 3.25rem 2rem;
+    border-radius: 10px;
+}
+
+.paragraph {
+    font-size: .87rem;
+    text-align: center;
+    color: #DBD9FF;
+}
+
+.paragraphSpan {
+    font-weight: 700;
+}
+
+.progressContainer {
+    margin-top: 1.18rem;
+    background: rgba(12, 18, 44, .49);
+    border-radius: 10px;
+}
+
+.progressBar {
+    position: relative;
+    width: 73%;
+    height: 100%;
+    border-radius: 200px;
+    background-image: linear-gradient(hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+}
+
+.progressCircle {
+    margin-left: auto;
+    width: 12px;
+    height: 12px;
+    background-color: hsl(243, 100%, 93%);
+    border-radius: 50%;
+}
+
+.dataAmountConatiner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: .62rem;
+}
+
+.gb {
+    font-size: .75rem;
+    color: #DBD9FF;
+    font-weight: 700;
+}
+
+.remainingGbsContainerWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.remainingGbsContainer {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background: #fff;
+    text-align: center;
+    bottom: -2.5rem;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+}
+
+.remainingQuantity {
+    color: #0C122C;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-right: .56rem;
+    line-height: 2.5rem;
+}
+
+.remainingInfo {
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    opacity: 0.5;
+}
+
+
+
+@media (min-width: 45em) {
+    main {
+        padding: 7.93rem 8rem;
+    }
+}
+
+@media (min-width: 64em) {
+    main {
+        padding: 0;
+    }
+
+    .flexContainer {
+        display: flex;
+        gap: 1.87rem;
+    }
+
+    .firstSectionWrap {
+        margin: 0;
+    }
+
+    .firstSection {
+        min-width: 21.87rem;
+    }
+
+    .secondSectionWrap {
+        padding-top: 2.93rem;
+    }
+
+    .secondSection {
+        min-width: 33.75rem;
+    }
+
+    .paragraph {
+        text-align: left;
+    }
+
+    .remainingGbsContainer {
+        max-width: 11.18rem;
+        bottom: 135px;
+        right: 37px;
+    }
+
+    .triangle {
+        position: absolute;
+        border: 12px solid transparent;
+        border-top: 0;
+        border-bottom: 25px solid white;
+        transform: rotate(167deg) skew(20deg);
+        right: -7px;
+        bottom: -17px;
+    }
+}
